@@ -1,0 +1,138 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*font do google*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Whisper&display=swap');
+
+/* barra de rolagem custom*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2d54bc;
+    border-radius: 10px;
+}
+
+/* style do header */
+
+#cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    background-color: #2d54bc;
+    color: white;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 999
+}
+
+#cabeçalho div {
+    display: flex;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2 rem;
+    color: white;
+}
+
+#cabeçalho img {
+    display: block;
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    gap: 1vw;
+    justify-content: space-around;
+}
+
+header a nav ul li a {
+    padding: 10px;
+}
+
+/* style do home */
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+    background-color: #2d54bc;
+    background-image: url(https://dsipublicacoes.com.br/wp-content/uploads/2022/12/contabilidade-4.0-700x400.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* style do TEXTO1*/
+
+#titulo1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    background-color: white;
+    border-radius: 20px;
+    color:#2d54bc;
+    display: block;
+    text-align: center;
+    }
+
+#texto1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    background-color: #2d54bc;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 150px;
+    color: white;
+    display: flex;
+}
+
+#Sobre {
+    display: flex;
+    gap: 17%;
+}
+
+#sessão {
+    display: flex;
+}
+
+#bila{
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #2d54bc;
+    padding: 20px;
+    color: white;
+
+}
+
+#bila img{
+    width: 500px;
+}
+
+#back{
+    background-image: url(https://www.pontotel.com.br/wp-content/uploads/2023/01/contabilidade-digital.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
